@@ -1,0 +1,95 @@
+@font-face {
+  font-family: Roboto;
+  src: url(https://fonts.googleapis.com/css?family=Roboto);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', Roboto;
+  font-weight: 400;
+  background-color: #fafafa;
+  color: #35342f;
+}
+
+.property-list {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.card {
+	margin: 10px 10px;
+	background-color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.property-list-item {
+	height: 200px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.card-img {
+	width: 25%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center center;
+}
+
+.card-content {
+	padding: 10px 10px;
+	flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: column nowrap;
+	-ms-flex-flow: column nowrap;
+	flex-flow: column nowrap;
+	-webkit-box-align: flex-start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: flex-start;
+	align-items: stretch;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: justify;
+	justify-content: flex-start;
+}
+
+.card-header {
+	flex: 1;
+/*	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;*/
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.card-header-info {
+	flex: 1;
+	/*align-items: flex-end;*/
+}
+
+.card-body {
+	flex: 1;
+}
