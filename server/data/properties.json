@@ -1182,180 +1182,180 @@
       }
   ],
   "included": [
-      {
-          "type": "tag",
-          "id": "13",
-          "attributes": {
-              "name": "Hip",
-              "type": "price",
-              "created_at": {
-                  "date": "2015-02-25 19:24:03.000000",
-                  "timezone_type": 3,
-                  "timezone": "UTC"
-              },
-              "updated_at": {
-                  "date": "2015-02-25 19:24:03.000000",
-                  "timezone_type": 3,
-                  "timezone": "UTC"
-              },
-              "links": [
-                  {
-                      "rel": "self",
-                      "uri": "/api/v2/tags/13"
-                  }
-              ],
-              "priority": 1
-          }
-      },
-      {
-          "type": "tag",
-          "id": "111",
-          "attributes": {
-              "name": "Glam",
-              "type": "price",
-              "created_at": {
-                  "date": "2015-10-13 00:00:00.000000",
-                  "timezone_type": 3,
-                  "timezone": "UTC"
-              },
-              "updated_at": {
-                  "date": "2015-10-13 00:00:00.000000",
-                  "timezone_type": 3,
-                  "timezone": "UTC"
-              },
-              "links": [
-                  {
-                      "rel": "self",
-                      "uri": "/api/v2/tags/111"
-                  }
-              ],
-              "priority": 1
-          }
-      },
-      {
-          "type": "tag",
-          "id": "7",
-          "attributes": {
-              "name": "Modern",
-              "type": "price",
-              "created_at": {
-                  "date": "2015-02-25 19:24:03.000000",
-                  "timezone_type": 3,
-                  "timezone": "UTC"
-              },
-              "updated_at": {
-                  "date": "2015-02-25 19:24:03.000000",
-                  "timezone_type": 3,
-                  "timezone": "UTC"
-              },
-              "links": [
-                  {
-                      "rel": "self",
-                      "uri": "/api/v2/tags/7"
-                  }
-              ],
-              "priority": 1
-          }
-      },
-      {
-          "type": "tag",
-          "id": "17",
-          "attributes": {
-              "name": "Charming",
-              "type": "price",
-              "created_at": {
-                  "date": "2015-02-25 19:24:03.000000",
-                  "timezone_type": 3,
-                  "timezone": "UTC"
-              },
-              "updated_at": {
-                  "date": "2015-02-25 19:24:03.000000",
-                  "timezone_type": 3,
-                  "timezone": "UTC"
-              },
-              "links": [
-                  {
-                      "rel": "self",
-                      "uri": "/api/v2/tags/17"
-                  }
-              ],
-              "priority": 1
-          }
-      },
-      {
-          "type": "tag",
-          "id": "2",
-          "attributes": {
-              "name": "Upscale",
-              "type": "price",
-              "created_at": {
-                  "date": "2015-02-25 19:21:41.000000",
-                  "timezone_type": 3,
-                  "timezone": "UTC"
-              },
-              "updated_at": {
-                  "date": "2015-02-25 19:21:41.000000",
-                  "timezone_type": 3,
-                  "timezone": "UTC"
-              },
-              "links": [
-                  {
-                      "rel": "self",
-                      "uri": "/api/v2/tags/2"
-                  }
-              ],
-              "priority": 1
-          }
-      },
-      {
-          "type": "tag",
-          "id": "15",
-          "attributes": {
-              "name": "Plush",
-              "type": "price",
-              "created_at": {
-                  "date": "2015-02-25 19:24:03.000000",
-                  "timezone_type": 3,
-                  "timezone": "UTC"
-              },
-              "updated_at": {
-                  "date": "2015-02-25 19:24:03.000000",
-                  "timezone_type": 3,
-                  "timezone": "UTC"
-              },
-              "links": [
-                  {
-                      "rel": "self",
-                      "uri": "/api/v2/tags/15"
-                  }
-              ],
-              "priority": 1
-          }
-      },
-      {
-          "type": "tag",
-          "id": "6",
-          "attributes": {
-              "name": "Sleek",
-              "type": "price",
-              "created_at": {
-                  "date": "2015-02-25 19:24:03.000000",
-                  "timezone_type": 3,
-                  "timezone": "UTC"
-              },
-              "updated_at": {
-                  "date": "2015-02-25 19:24:03.000000",
-                  "timezone_type": 3,
-                  "timezone": "UTC"
-              },
-              "links": [
-                  {
-                      "rel": "self",
-                      "uri": "/api/v2/tags/6"
-                  }
-              ],
-              "priority": 1
-          }
+    {
+      "type": "tag",
+      "id": "13",
+      "attributes": {
+          "name": "Hip",
+          "type": "price",
+          "created_at": {
+              "date": "2015-02-25 19:24:03.000000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+          },
+          "updated_at": {
+              "date": "2015-02-25 19:24:03.000000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+          },
+          "links": [
+              {
+                  "rel": "self",
+                  "uri": "/api/v2/tags/13"
+              }
+          ],
+          "priority": 1
       }
+  },
+  {
+      "type": "tag",
+      "id": "111",
+      "attributes": {
+          "name": "Glam",
+          "type": "price",
+          "created_at": {
+              "date": "2015-10-13 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+          },
+          "updated_at": {
+              "date": "2015-10-13 00:00:00.000000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+          },
+          "links": [
+              {
+                  "rel": "self",
+                  "uri": "/api/v2/tags/111"
+              }
+          ],
+          "priority": 1
+      }
+  },
+  {
+      "type": "tag",
+      "id": "7",
+      "attributes": {
+          "name": "Modern",
+          "type": "price",
+          "created_at": {
+              "date": "2015-02-25 19:24:03.000000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+          },
+          "updated_at": {
+              "date": "2015-02-25 19:24:03.000000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+          },
+          "links": [
+              {
+                  "rel": "self",
+                  "uri": "/api/v2/tags/7"
+              }
+          ],
+          "priority": 1
+      }
+  },
+  {
+      "type": "tag",
+      "id": "17",
+      "attributes": {
+          "name": "Charming",
+          "type": "price",
+          "created_at": {
+              "date": "2015-02-25 19:24:03.000000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+          },
+          "updated_at": {
+              "date": "2015-02-25 19:24:03.000000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+          },
+          "links": [
+              {
+                  "rel": "self",
+                  "uri": "/api/v2/tags/17"
+              }
+          ],
+          "priority": 1
+      }
+  },
+  {
+      "type": "tag",
+      "id": "2",
+      "attributes": {
+          "name": "Upscale",
+          "type": "price",
+          "created_at": {
+              "date": "2015-02-25 19:21:41.000000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+          },
+          "updated_at": {
+              "date": "2015-02-25 19:21:41.000000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+          },
+          "links": [
+              {
+                  "rel": "self",
+                  "uri": "/api/v2/tags/2"
+              }
+          ],
+          "priority": 1
+      }
+  },
+  {
+      "type": "tag",
+      "id": "15",
+      "attributes": {
+          "name": "Plush",
+          "type": "price",
+          "created_at": {
+              "date": "2015-02-25 19:24:03.000000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+          },
+          "updated_at": {
+              "date": "2015-02-25 19:24:03.000000",
+              "timezone_type": 3,
+              "timezone": "UTC"
+          },
+          "links": [
+              {
+                  "rel": "self",
+                  "uri": "/api/v2/tags/15"
+              }
+          ],
+          "priority": 1
+      }
+  },
+  {
+    "type": "tag",
+    "id": "6",
+    "attributes": {
+      "name": "Sleek",
+      "type": "price",
+      "created_at": {
+          "date": "2015-02-25 19:24:03.000000",
+          "timezone_type": 3,
+          "timezone": "UTC"
+      },
+      "updated_at": {
+        "date": "2015-02-25 19:24:03.000000",
+        "timezone_type": 3,
+        "timezone": "UTC"
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "/api/v2/tags/6"
+        }
+      ],
+      "priority": 1
+      }
+    }
   ]
 }
