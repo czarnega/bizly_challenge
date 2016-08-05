@@ -1,0 +1,1361 @@
+{
+  "data": [
+      {
+          "type": "property",
+          "id": "1543",
+          "attributes": {
+              "name": "The Mercer Hotel",
+              "display_name": "The Mercer Hotel",
+              "slug": "the-mercer-hotel",
+              "property_type_id": 1,
+              "display_address": "147 Mercer Street, NYC",
+              "full_address": "147 Mercer St, New York, NY 10012, United States",
+              "city": "New York",
+              "state": "NY",
+              "country": "United States",
+              "time_zone": "America/New_York",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -73.998566,
+              "lat": 40.724957,
+              "status": 1,
+              "featured": 0,
+              "starting_at": 250,
+              "min_duration": 480,
+              "max_capacity": 6,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1464377066/mxyqrat7xwvvjjuvwbmb.jpg",
+              "details": {
+                  "id": 2,
+                  "property_id": 1543,
+                  "deckline": "<p>LOFTY GOALS</p>",
+                  "description": "<p>The Mercer, a modern New York classic, epitomizes the business lifestyle of SoHo and is a popular destination for world-renowned celebrities and media executives. This luxury boutique hotel anchors the neighborhood’s east end and is just blocks from Greenwich Village. Meetings at the Mercer take place in the hotel's Loft Suites, with an approachable but luxe feel for an experience that is both inspiring and comfortable.</p>",
+                  "executive_summary": "<ul><li>Loft Suites seat 4-6 people (675 square feet)</li><li>Hardwood floors, large windows, private bathroom</li><li>HDMI and VGA cables provided</li><li>Bottled water included</li><li>Located on 6th floor</li></ul>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1468522844/property-logos/Mercer.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2015-04-09 09:14:55",
+                  "updated_at": "2015-04-09 09:14:55",
+                  "moderated_at": "2015-04-09 09:14:55",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/1543"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "13"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "1631",
+          "attributes": {
+              "name": "Hotel Hugo",
+              "display_name": "Hotel Hugo",
+              "slug": "hotel-hugo",
+              "property_type_id": 1,
+              "display_address": "525 Greenwich Street, NYC",
+              "full_address": "525 Greenwich St, New York, NY 10013, United States",
+              "city": "New York",
+              "state": "NY",
+              "country": "United States",
+              "time_zone": "America/New_York",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -74.008881,
+              "lat": 40.726402,
+              "status": 1,
+              "featured": 0,
+              "starting_at": 75,
+              "min_duration": 120,
+              "max_capacity": 16,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1458051915/cjcdzlqnkjfvhurnjb2x.jpg",
+              "details": {
+                  "id": 3,
+                  "property_id": 1631,
+                  "deckline": "<p><strong>CREATIVITY AMPED</strong></p>",
+                  "description": "<p>**Super-low rates for same-week bookings.** Infuse a meeting with originality and out-of-the-box thinking by convening at Hotel Hugo, a sleek and popular media hangout in the heart of SoHo’s Hudson Square, the media capital of the world. The meeting room on the lower level accommodates 16 people and features walnut wood trim and is fully equipped with AV and food options. Food and drink from Il Principe.</p>",
+                  "executive_summary": "<ul><li>Conference Room seats 16 people</li><li>500 square feet</li><li>Built-in 46-inch smart TV with HDMI laptop connection</li><li>HDMI cable provided</li><li>Soundproofing</li><li>Room located on lower level</li><li>Super-low rates for same-week bookings</li></ul>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1444325169/unjp5nfd1e6m1zsx1qrz.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2015-04-09 09:49:42",
+                  "updated_at": "2015-04-09 09:49:42",
+                  "moderated_at": "2015-04-09 09:49:42",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/1631"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "13"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "2581",
+          "attributes": {
+              "name": "Ace Hotel",
+              "display_name": "Ace Hotel",
+              "slug": "ace-hotel",
+              "property_type_id": 1,
+              "display_address": "20 W. 29th Street, NYC",
+              "full_address": "20 W 29th St, New York, NY 10001, United States",
+              "city": "New York",
+              "state": "NY",
+              "country": "United States",
+              "time_zone": "America/New_York",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -73.988258,
+              "lat": 40.745743,
+              "status": 1,
+              "featured": 1,
+              "starting_at": 75,
+              "min_duration": 120,
+              "max_capacity": 22,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1464377646/iaawfm7d2spmmujgigy5.jpg",
+              "details": {
+                  "id": 4,
+                  "property_id": 2581,
+                  "deckline": "<p><strong>Form <em>and</em> Function</strong></p>",
+                  "description": "<p>**Super-low rates for same-week bookings.** The Ace has transformed the way hotels interact with local entrepreneurs and professionals, and the private meeting space on the lower level is just as transformative. Natural wood undertones and the latest tech toys are at your fingertips, in a setting sure to inspire and energize everyone at the table. The Boardroom seats 22. Food and drink from The Breslin.</p>",
+                  "executive_summary": "<ul><li>The Boardroom seats 22</li><li>700 square feet</li><li>24-speaker teleconferencing system (extra fee)</li><li>Wireless HDMI projector (extra fee)</li><li>Smeg Fridge with goodies for purchase</li><li>Built-In blackboard</li><li>In-room fax, printer, scanner (extra fee)</li><li>Room is located on basement level</li><li>Super-low rates for same-week bookings</li></ul>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1444426266/n5hc5js3zi0ixzyxnthl.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2015-04-10 12:56:24",
+                  "updated_at": "2015-04-10 12:56:24",
+                  "moderated_at": "2015-04-10 12:56:24",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/2581"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "13"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "7401",
+          "attributes": {
+              "name": "Royalton Hotel",
+              "display_name": "Royalton Hotel",
+              "slug": "royalton-hotel",
+              "property_type_id": 1,
+              "display_address": "44 W. 44th Street, NYC",
+              "full_address": "44, West 44th Street, New York, NY 10036, United States",
+              "city": "New York",
+              "state": "NY",
+              "country": "United States",
+              "time_zone": "America/New_York",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -73.982224,
+              "lat": 40.755581,
+              "status": 1,
+              "featured": 0,
+              "starting_at": 165,
+              "min_duration": 180,
+              "max_capacity": 20,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1464380718/af2mlhvd8bar86nmkn4l.jpg",
+              "details": {
+                  "id": 5,
+                  "property_id": 7401,
+                  "deckline": "<p><strong>Style and Grace</strong></p>",
+                  "description": "<p>Step off 44th St. into the Royalton’s lobby and you’ve entered another world. The Royalton and Philippe Stark’s original design is unforgettably stylish, modern and elegant. Meetings at the Royalton take place in the suites (which seat 4 - 14) and provide an approachable and luxe setting for inspirational and productive meetings.</p>",
+                  "executive_summary": "<ul><li>Penthouse East Suite seats 4-14 (800 square feet)</li><li>Penthouse South Suite seats 4-20 (1700 square feet)</li><li>Penthouse North Suite seats 4-10 (900 square feet)</li><li>All suites have outdoor terraces</li><li>HDMI and VGA Cables provided</li><li>Rooms located on 16th floor</li></ul>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1444426988/bl6xgxnfkhs8dy5i6ftv.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2015-06-08 18:30:03",
+                  "updated_at": "2015-06-08 18:30:03",
+                  "moderated_at": "2015-06-08 18:30:03",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/7401"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "111"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "7421",
+          "attributes": {
+              "name": "Bryant Park Hotel",
+              "display_name": "Bryant Park Hotel",
+              "slug": "bryant-park-hotel",
+              "property_type_id": 1,
+              "display_address": "40 W. 40th Street, NYC",
+              "full_address": "40 W 40th St, New York, NY 10018, United States",
+              "city": "New York",
+              "state": "NY",
+              "country": "United States",
+              "time_zone": "America/New_York",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Dial \"0\" on the in-room phone.",
+              "lng": -73.98378,
+              "lat": 40.752766,
+              "status": 1,
+              "featured": 0,
+              "starting_at": 150,
+              "min_duration": 120,
+              "max_capacity": 10,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1441856192/hzwuwcz785dhmxi8yywe.jpg",
+              "details": {
+                  "id": 6,
+                  "property_id": 7421,
+                  "deckline": "<p><strong>Fashionable Midtown</strong></p>",
+                  "description": "<p>**Super-low rates for same-week bookings.** Dial up the success quotient when you bring a meeting to this trendy boutique hotel, a magnet for power players from the media, movie and fashion industries and just steps from Bryant Park. The meeting room, Boardroom Suite, seats 10 and is fully equipped with AV, elegant boardroom table, executive chairs and large picture windows overlooking Bryant Park.</p>",
+                  "executive_summary": "<ul><li>Boardroom Suite seats 10</li><li>49-inch flat-screen TV</li><li>HDMI and VGA cables provided</li><li>Complimentary Wi-Fi</li><li>Whiteboard in room</li><li>Polycom conference calling (additional $100)</li><li>Room located on 5th floor</li><li>Super-low rates for same-week bookings</li></ul>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1444429144/uwku6wo9yd2fqnfhwfjr.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2015-06-08 18:33:07",
+                  "updated_at": "2015-06-08 18:33:07",
+                  "moderated_at": "2015-06-08 18:33:07",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/7421"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "7"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "7441",
+          "attributes": {
+              "name": "Hotel 48Lex",
+              "display_name": "Hotel 48Lex",
+              "slug": "hotel-48-lex",
+              "property_type_id": 1,
+              "display_address": "517 Lexington Avenue, NYC",
+              "full_address": "517 Lexington Ave, New York, NY 10017, United States",
+              "city": "New York",
+              "state": "NY",
+              "country": "United States",
+              "time_zone": "America/New_York",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -73.972977,
+              "lat": 40.755245,
+              "status": 1,
+              "featured": 0,
+              "starting_at": 150,
+              "min_duration": 60,
+              "max_capacity": 16,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1463155170/guud4dejao9vec1engby.jpg",
+              "details": {
+                  "id": 7,
+                  "property_id": 7441,
+                  "deckline": "<p>High-Tech, High-Design</p>",
+                  "description": "<p>**Super-low rates for same-week bookings in Boardroom 1.** This quiet boutique hotel is a dream venue, and its intimate, functional meeting space is one reason why. Four boardrooms (seating 8-16) feature floor-to-ceiling windows for natural light. White leather chairs surround a sleek mahogany table, and rooms are decorated with modern art and finishes that provide a welcoming environment for any discussion. Hotel 48Lex meeting rooms are ideal for executive board meetings, private product launches, and formal interviews.</p>",
+                  "executive_summary": "<ul><li>​Boardroom 1 seats 8 people (291 sq ft)</li><li>Boardroom 2 seats 14 ​people ​(282 sq ft)</li><li>Boardroom 3 seats 16 people (282 sq ft​ + Alcove)</li><li>​Boardroom 4 seats 10 people (280 sq ft + Alcove)</li><li>AV for teleconferencing (additional)</li><li>Projector/screen (additional)</li><li>Windows with city view</li><li>Rooms are located on 2nd floor</li><li>Super-low rates for same-week bookings in Boardroom 1</li></ul>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1468522843/property-logos/48Lex.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2015-06-08 18:35:40",
+                  "updated_at": "2015-06-08 18:35:40",
+                  "moderated_at": "2015-06-08 18:35:40",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/7441"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "7"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "7481",
+          "attributes": {
+              "name": "The San Carlos Hotel",
+              "display_name": "San Carlos Hotel",
+              "slug": "the-san-carlos-hotel",
+              "property_type_id": 1,
+              "display_address": "150 E. 50th Street, NYC",
+              "full_address": "150 E 50th St, New York, NY 10022, United States",
+              "city": "New York",
+              "state": "NY",
+              "country": "United States",
+              "time_zone": "America/New_York",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -73.971481,
+              "lat": 40.755878,
+              "status": 1,
+              "featured": 0,
+              "starting_at": 90,
+              "min_duration": 120,
+              "max_capacity": 25,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1446523969/j5shp5hx9jqssnw3l2mh.jpg",
+              "details": {
+                  "id": 9,
+                  "property_id": 7481,
+                  "deckline": "<p><strong>CHARMED MEETINGS</strong></p>",
+                  "description": "<p>**Super-low rates for same-week bookings.** Get down to business at one of these classic meeting rooms in The San Carlos Hotel, a luxury property in Midtown where charm abounds.  The meeting rooms, Boardroom (seats 14) and Valencia Room (seats 25), overlook East 50th Street and provide a professional and productive environment.</p>",
+                  "executive_summary": "<ul><li>Boardroom seats 14 (425 square feet)</li><li>Valencia Room seats 25 (425 square feet)</li><li>Open-access business center on meeting room level</li><li>60-inch plasma TV in both rooms</li><li>Complimentary Wi-Fi</li><li>HDMI and VGA cables provided</li><li>Boardroom and Valencia Room located on Upper Lobby level</li><li>Super-low rates for same-week bookings</li></ul>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1444426777/aoxc9lb3ybx7s4e5xfwz.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2015-06-08 18:50:23",
+                  "updated_at": "2015-06-08 18:50:23",
+                  "moderated_at": "2015-06-08 18:50:23",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/7481"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "17"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "7551",
+          "attributes": {
+              "name": "Hilton Garden Inn Central Park South",
+              "display_name": "Hilton Garden Inn",
+              "slug": "hilton-garden-inn-central-park-south",
+              "property_type_id": 1,
+              "display_address": "237 W. 54th Street, NYC",
+              "full_address": "237 W 54th St, New York, NY, United States",
+              "city": "New York",
+              "state": "NY",
+              "country": "United States",
+              "time_zone": "America/New_York",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -73.98304,
+              "lat": 40.76453,
+              "status": 1,
+              "featured": 0,
+              "starting_at": 75,
+              "min_duration": 120,
+              "max_capacity": 12,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1446524579/jfgks6nlvsk1ehucyqct.jpg",
+              "details": {
+                  "id": 10,
+                  "property_id": 7551,
+                  "deckline": "<p>Convenient and Comfortable</p>",
+                  "description": "<p>**Super-low rates for same-week bookings.** Just steps from Central Park, Hilton Garden Inn Central Park South is the perfect place to convene. The hotel caters to business guests, and events at this Midtown property are positioned for success. The Carnegie Boardroom is a flexible and comfortable meeting space with the latest AV and technology. The complimentary business center is a bonus resource.</p>",
+                  "executive_summary": "<ul><li>Carnegie Boardroom seats 12</li><li>336 square feet</li><li>AV includes 40-inch flat-screen monitor</li><li>Whiteboard available</li><li>Complimentary Wi-Fi</li><li>HDMI and VGA cables provided</li><li>Complimentary use of business center</li><li>Room is located on conference (lower) level</li><li>Super-low rates for same-week bookings</li></ul>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1444426550/fqe04yhvxshqgd1b3mv2.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2015-09-17 00:56:01",
+                  "updated_at": "2015-09-17 00:56:01",
+                  "moderated_at": "2015-09-17 00:56:01",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/7551"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "7"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "7571",
+          "attributes": {
+              "name": "Plaza Athenee",
+              "display_name": "Plaza Athenee",
+              "slug": "plaza-athenee",
+              "property_type_id": 1,
+              "display_address": "37 E. 64th Street, NYC",
+              "full_address": "37 E 64th St, New York, NY 10065, United States",
+              "city": "New York",
+              "state": "NY",
+              "country": "United States",
+              "time_zone": "America/New_York",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -73.968384,
+              "lat": 40.766636,
+              "status": 1,
+              "featured": 0,
+              "starting_at": 88,
+              "min_duration": 240,
+              "max_capacity": 20,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1450847423/efizgjtdrjtowkha7r4w.jpg",
+              "details": {
+                  "id": 12,
+                  "property_id": 7571,
+                  "deckline": "<p>Le Business Meeting</p>",
+                  "description": "<p>**Super-low rates for same-week bookings.** Entering the Plaza Athenee is like being transported instantly to a sophisticated luxury hotel in the heart of Paris. Even the meeting rooms are imbued with French charm and elegance: traditional architectural elements, splashes of greenery, and traditional upholstery. Yet AV is state-of-the art. Le Trianon II seats 20, and the Private Dining Room seats 20.</p>",
+                  "executive_summary": "<ul><li>Le Trianon II seats 20</li><li>Private Dining Room seats 20</li><li>AV for both rooms includes screen, projector, flip chart</li><li>Built-in whiteboard (Le Trianon II)</li><li>Sophisticated sound system</li><li>Three large floor-to-ceiling windows in Le Trianon II</li><li>Le Trianon II located on the second floor</li><li>Private Dining Room on first floor</li><li>Super-low rates for same-week bookings</li></ul>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1444426379/gux0ppbapiwuilkycjbt.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2015-09-19 16:09:03",
+                  "updated_at": "2015-09-19 16:09:03",
+                  "moderated_at": "2015-09-19 16:09:03",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/7571"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "17"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "7601",
+          "attributes": {
+              "name": "Mandarin Oriental New York",
+              "display_name": "Mandarin Oriental",
+              "slug": "mandarin-oriental-new-york",
+              "property_type_id": 1,
+              "display_address": "80 Columbus Circle, NYC",
+              "full_address": "80 Columbus Cir, New York, NY 10023, United States",
+              "city": "New York",
+              "state": "NY",
+              "country": "United States",
+              "time_zone": "America/New_York",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -73.982956,
+              "lat": 40.769077,
+              "status": 1,
+              "featured": 1,
+              "starting_at": 150,
+              "min_duration": 180,
+              "max_capacity": 15,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1447130496/raiyp2c2dhdpdh7i9oaj.jpg",
+              "details": {
+                  "id": 13,
+                  "property_id": 7601,
+                  "deckline": "<p>Birds-Eye Business</p>",
+                  "description": "<p>**Super-low rates for same-week bookings.** The views from the Mandarin Oriental in the Time Warner Center may be drop-dead gorgeous, but you'll be able to summon laser-sharp focus in meetings here. The Business Center Conference Room offers a private, quiet space adjacent to the public business center. Leather chairs surround an elegant wood table. Meeting Suite 3830 is comprised of two separate rooms, perfect for breakouts or separate food and beverage. Both rooms feature floor-to-ceiling windows to bring in natural light and offer convenient access to the business center.</p>",
+                  "executive_summary": "<ul><li>Business Center Conference Room seats 8</li><li>Business Center Conference Room is 250 square feet</li><li>Meeting Suite 3830 seats 15</li><li>Meeting Suite 3830 has two rooms: one small breakout room with lounge setup and one full room</li><li>Meeting Suite 3830 is 800 square feet</li><li>Large windows with city views</li><li>Additional cost for AV; HDMI cable provided</li><li>Conference service manager on-site to assist</li><li>Rooms are located on the 38th floor</li><li>Super-low rates for same-week bookings</li></ul>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1444325431/ma71cxtsdnyfq0bxawr1.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2015-09-19 16:14:00",
+                  "updated_at": "2015-09-19 16:14:00",
+                  "moderated_at": "2015-09-19 16:14:00",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/7601"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "2"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "7661",
+          "attributes": {
+              "name": "Standard, East Village",
+              "display_name": "The Standard",
+              "slug": "standard-east-village",
+              "property_type_id": 1,
+              "display_address": "25 Cooper Square, NYC",
+              "full_address": "25 Cooper Square, NYC, NY, United States",
+              "city": "New York",
+              "state": "NY",
+              "country": "United States",
+              "time_zone": "America/New_York",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -73.990784,
+              "lat": 40.727932,
+              "status": 1,
+              "featured": 1,
+              "starting_at": 150,
+              "min_duration": 120,
+              "max_capacity": 16,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1466793722/pmcxbxcod1oyczoqylxz.jpg",
+              "details": {
+                  "id": 15,
+                  "property_id": 7661,
+                  "deckline": "<p>A MEETING WITH THE X-FACTOR</p>",
+                  "description": "<p>**Super-low rates for same-week bookings.** You can't put your finger on it--a hotel's version of the X-factor--but The Standard, East Village has this charisma in spades. From vibrant, artistic Cooper Square, enter The Standard to find a chic and charming world. The Overlook boardroom's vibe is modern and incredibly bright, with walls of floor-to-ceiling windows that look onto the restaurant's garden. Your practical needs are totally covered, too, with high-end tech amenities such as the 60-inch Apple TV. Give your next meeting that special vibe, at The Standard, East Village.</p>",
+                  "executive_summary": "<ul><li>The Overlook seats 16</li><li>60-inch Apple TV</li><li>HDMI cables</li><li>VGA to HDMI converter</li><li>Complimentary Wi-Fi</li><li>TV Audio connects to room speakers</li><li>Wireless conference phone</li><li>Coax cable for TV channels</li><li>Room located on 2nd floor</li><li>Super-low rates for same-week bookings</li></ul>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1468522844/property-logos/The-Standard.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2016-01-20 21:10:43",
+                  "updated_at": "2016-01-20 21:10:43",
+                  "moderated_at": "2016-01-20 21:10:43",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/7661"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "13"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "7671",
+          "attributes": {
+              "name": "Omni Berkshire Place",
+              "display_name": "Omni Berkshire",
+              "slug": "omni-berkshire-place",
+              "property_type_id": 1,
+              "display_address": "21 East 52nd Street, NYC",
+              "full_address": "21 East 52nd Street, New York 10022, United States",
+              "city": "New York",
+              "state": "NY",
+              "country": "United States",
+              "time_zone": "America/New_York",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -73.974945,
+              "lat": 40.759426,
+              "status": 1,
+              "featured": 0,
+              "starting_at": 75,
+              "min_duration": 120,
+              "max_capacity": 24,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1455207024/kz49g7xmkocqxojzecch.jpg",
+              "details": {
+                  "id": 16,
+                  "property_id": 7671,
+                  "deckline": "<p>Well Located Luxury</p>",
+                  "description": "<p>**Super-low rates for same-week bookings.** Share in this landmark building's reputation of inspiring artists and socialites dating back a century. Rodgers and Hammerstein even wrote <em>Oklahoma!</em> in one of the suites. The hotel has been beautifully renovated and is now the epitomy of understated luxury. Even better: Its convenient midtown location make it perfectly suited to hosting a meeting. Take your pick of four meeting rooms. The Empire Room is an intimate glass space, seating just four and overlooking Madison Ave. The larger Madison Salon also looks onto Madison Ave. but is larger, seating 24 boardroom style. The versatile and understated Sutton Room seats 15. The Rockfeller Room features an elegant table and leather chairs for 12 with a very upscale boardroom feel. All meeting rooms are located on the second floor with generous windows for natural light.</p>",
+                  "executive_summary": "<ul><li>Empire Room seats 4 people (108 square feet)</li><li>Madison Salon seats 24 people (460 square feet)</li><li>Sutton Room seats 15 people (299 square feet)</li><li>Rockefeller Room seats 12 people (308 square feet)</li><li>Rooms located on second floor</li><li>Super-low rates for same-week bookings</li></ul><p> </p>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1468522844/property-logos/Omni.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2016-01-29 19:20:16",
+                  "updated_at": "2016-01-29 19:20:16",
+                  "moderated_at": "2016-01-29 19:20:16",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/7671"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "2"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "7721",
+          "attributes": {
+              "name": "The High Line Hotel",
+              "display_name": "High Line Hotel",
+              "slug": "the-high-line-hotel",
+              "property_type_id": 1,
+              "display_address": "180 10th Avenue, NYC",
+              "full_address": "180 10th Ave, New York, NY 10011, United States",
+              "city": "New York",
+              "state": "NY",
+              "country": "United States",
+              "time_zone": "America/New_York",
+              "contact_name": null,
+              "email": "tlissade@thehighlinehotel.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -74.00499,
+              "lat": 40.74596,
+              "status": 1,
+              "featured": 0,
+              "starting_at": 55,
+              "min_duration": 120,
+              "max_capacity": 20,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1458223528/dlyrbnaol3vxknp1vbo4.jpg",
+              "details": {
+                  "id": 19,
+                  "property_id": 7721,
+                  "deckline": "<p>Eclectic, Hip Meetings</p>",
+                  "description": "<p>**Super-low rates for same-week bookings.** The buzz here isn't just served up by the Intelligentsia Coffee baristas in the lobby. The High Line Hotel's rich history, eclectic design, and chic clientele make it an inspiring meeting destination. Three meeting rooms reflect the hotel's personality while offering all the amenities--from notepads to Apple TV. All offer natural light with large windows looking out to a bustling Chelsea neighborhood. The High Line Room seats 14 with ergonomic mesh chairs in a room otherwise fitted with antiques. The Hudson Room seats 20 and capitalizes on the charm of the hotel's former days as a seminary. The Clement Clarke Moore Room, named for the property's original owner and author of the legendary poem, Twas the Night Before Christmas, seats 20 comfortably.</p>",
+                  "executive_summary": "<ul><li>The Hudson Room seats 20 people (500 square feet)</li><li>The High Line Room seats 14 people (500 square feet)</li><li>The Clement Clarke Moore Room seats 20 people (450 square feet)</li><li>Complimentary Wi-Fi, HD TV, whiteboard, conference bridge, notepads & pencils, water, and Apple TV</li><li>Cables provided</li><li>Rooms located on fourth and fifth floors</li><li>Super-low rates for same-week bookings</li></ul>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1458325695/fdlirv0hlzpi3limrqeb.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2016-03-16 20:35:22",
+                  "updated_at": "2016-03-16 20:35:22",
+                  "moderated_at": "2016-03-16 20:35:22",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/7721"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "13"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "7722",
+          "attributes": {
+              "name": "The Quin",
+              "display_name": "The Quin",
+              "slug": "the-quin",
+              "property_type_id": 1,
+              "display_address": "101 W. 57th Street, NYC",
+              "full_address": "101 W 57th St, New York, NY 10019, United States",
+              "city": "New York",
+              "state": "NY",
+              "country": "United States",
+              "time_zone": "America/New_York",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -73.977448,
+              "lat": 40.764668,
+              "status": 1,
+              "featured": 0,
+              "starting_at": 125,
+              "min_duration": 120,
+              "max_capacity": 10,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1460593093/gndvbukraf9dbwcvuwio.jpg",
+              "details": {
+                  "id": 20,
+                  "property_id": 7722,
+                  "deckline": "<p>Posh Beauty</p>",
+                  "description": "<p>**Super-low rates for same-week bookings.** The Quin's storied history--in a beautiful Beaux Arts building--is imbued with the spirits of artists and musicians. Today, the elegantly modern lobby welcomes your meeting attendees. The Executive Boardroom seats 10 in modern white leather chairs surrounding a gorgeous dark wood table. The room is flooded with natural light and offers views of 57th Street. Meanwhile, all the AV convenience and service you require is at hand.</p>",
+                  "executive_summary": "<ul><li>Executive Boardroom seats 10</li><li>400 square feet</li><li>60-inch plasma display</li><li>Pens, writing pads provided</li><li>Bottled water complimentary</li><li>Wi-Fi complimentary</li><li>Windows look out to 57th St.</li><li>Room is located on 2nd floor</li><li>Super-low rates for same-week bookings</li></ul><p> </p>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1468522844/property-logos/The-Quin.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2016-04-12 20:25:22",
+                  "updated_at": "2016-04-12 20:25:22",
+                  "moderated_at": "2016-04-12 20:25:22",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/7722"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "15"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "7728",
+          "attributes": {
+              "name": "The Lexington NYC",
+              "display_name": "The Lexington",
+              "slug": "the-lexington-nyc",
+              "property_type_id": 1,
+              "display_address": "511 Lexington Avenue, NYC",
+              "full_address": "511 Lexington Ave, New York, NY 10017, United States",
+              "city": "New York",
+              "state": "NY",
+              "country": "United States",
+              "time_zone": "America/New_York",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -73.973183,
+              "lat": 40.754807,
+              "status": 1,
+              "featured": 0,
+              "starting_at": 125,
+              "min_duration": 240,
+              "max_capacity": 10,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1461939575/iitqludha3sujpiyvhth.jpg",
+              "details": {
+                  "id": 21,
+                  "property_id": 7728,
+                  "deckline": "<p>Jazz-Age Never Looked Better</p>",
+                  "description": "<p>Give your meeting an impressive vibe at The Lexington New York City, an Autograph Collection boutique hotel in convenient Midtown. Here artsy contemporary decor meets Jazz-inspired history, a look that carries through to the two elegant boardrooms. In the Half Note (seats 10) and Onyx room (seats 10), gorgeous wood tables are flanked by ergonomic seating. Large windows look out to the city and bring in natural light. The rooms are well equipped with the technology you'll need and even offer complimentary sodas and waters in a handy mini-fridge.</p>",
+                  "executive_summary": "<ul><li>Half Note room seats 10 people</li><li>Onyx room seats 10 people</li><li>230 square feet each</li><li>TV for laptop hookup</li><li>HDMI/VGA cables provided</li><li>Soda and water complimentary</li><li>Natural lighting</li><li>Complimentary Wi-Fi</li><li>Rooms located on Mezzanine</li></ul>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1468522843/property-logos/The-Lexington-NYC.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2016-04-13 16:26:27",
+                  "updated_at": "2016-04-13 16:26:27",
+                  "moderated_at": "2016-04-13 16:26:27",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/7728"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "6"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "7729",
+          "attributes": {
+              "name": "Crowne Plaza Hotel, Times Square",
+              "display_name": "Crowne Plaza",
+              "slug": "crowne-plaza-hotel-tsq",
+              "property_type_id": 1,
+              "display_address": "1605 Broadway, NYC",
+              "full_address": "1605 Broadway, New York, NY 10019, United States",
+              "city": "New York",
+              "state": "NY",
+              "country": "United States",
+              "time_zone": "America/New_York",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -73.984886,
+              "lat": 40.760399,
+              "status": 1,
+              "featured": 0,
+              "starting_at": 125,
+              "min_duration": 240,
+              "max_capacity": 18,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1464356833/p9a7qkhovw72elqmnuwl.jpg",
+              "details": {
+                  "id": 22,
+                  "property_id": 7729,
+                  "deckline": "<p>Bustling Times Square Hub</p>",
+                  "description": "<p>Locate your meeting at the center of it all, Times Square. The Crowne Plaza is as convenient as it gets. The hotel's contemporary decor conveys a modern sophistication, and the property offers all the amenities of a busy business hotel. Room 506 (seats 18) features beautiful natural light, a wall-mounted flat-screen monitor, and French doors to the adjoining room. Crowne Plaza stands out in the crowd!</p>",
+                  "executive_summary": "<ul><li>Room 506 seats 10-18 people, 483 sq ft</li><li>Natural light</li><li>Flat-screen monitor</li><li>Complimentary pads and pens</li><li>Pitchers of water provided</li><li>Room located on fifth floor</li></ul>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1468522843/property-logos/Crowne-Plaza.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2016-04-13 16:28:11",
+                  "updated_at": "2016-04-13 16:28:11",
+                  "moderated_at": "2016-04-13 16:28:11",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/7729"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "7"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "7734",
+          "attributes": {
+              "name": "Refinery Hotel",
+              "display_name": "Refinery Hotel",
+              "slug": "refinery-hotel",
+              "property_type_id": 1,
+              "display_address": "63 W. 38th Street, NYC",
+              "full_address": "63 East 38th Street, New York, NY 10018, United States",
+              "city": "New York",
+              "state": "NY",
+              "country": "United States",
+              "time_zone": "America/New_York",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -73.985374,
+              "lat": 40.752209,
+              "status": 1,
+              "featured": 0,
+              "starting_at": 75,
+              "min_duration": 300,
+              "max_capacity": 20,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1464357528/aikmxm33bh0wivs1vqvl.jpg",
+              "details": {
+                  "id": 26,
+                  "property_id": 7734,
+                  "deckline": "<p>Hat's Off!</p>",
+                  "description": "<p>**Super-low rates for same-week bookings.** Drawing on its rich history as a millinery factory, vintage and modern mingle at the Refinery Hotel, bringing a smart vibe to your meeting. The Hatbox (seats 20) originally served as the loading dock from the building's factory--it's been transformed to a versatile space, a blank canvas with an industrial, gallery-like feel. Tech essentials like a projector with a pull-down screen are included. The Midtown location, just a block from Bryant Park, can't be beat. </p>",
+                  "executive_summary": "<ul><li>Hatbox seats 20</li><li>700 square feet</li><li>Screen, projector provided</li><li>Complimentary Wi-Fi</li><li>VGA/HDMI cables provided</li><li>Bottled water complimentary</li><li>Room located on lobby level</li><li>Super-low rates for same-week bookings</li></ul>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1468522843/property-logos/Refinery-Hotel.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2016-05-04 17:22:40",
+                  "updated_at": "2016-05-04 17:22:40",
+                  "moderated_at": "2016-05-04 17:22:40",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/7734"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "13"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "7737",
+          "attributes": {
+              "name": "Argonaut Hotel",
+              "display_name": "Argonaut Hotel",
+              "slug": "argonaut-hotel",
+              "property_type_id": 1,
+              "display_address": "495 Jefferson Street, SF",
+              "full_address": "495 Jefferson St, San Francisco, CA 94109, United States",
+              "city": "San Francisco",
+              "state": "CA",
+              "country": "United States",
+              "time_zone": "America/Los_Angeles",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -122.420464,
+              "lat": 37.807487,
+              "status": 1,
+              "featured": 0,
+              "starting_at": 250,
+              "min_duration": 120,
+              "max_capacity": 12,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1465580929/ykcmswhiw6u75ajeyybm.jpg",
+              "details": {
+                  "id": 28,
+                  "property_id": 7737,
+                  "deckline": "<p>Where History Is Forward-Thinking</p>",
+                  "description": "<p>**Super-low rates for same-week bookings.** The Argonaut Hotel is situated on the waterfront in the historic Haslett Warehouse, on the grounds of the San Francisco Maritime National Historical Park in the heart of Fisherman’s Wharf in San Francisco. True to its history and location on the portside of San Francisco, the hotel is decorated in a classic nautical flavor throughout. Argonaut staff are experienced in helping manage smaller seminars, workshops, staff retreats, sales presentations, press conferences, training sessions and product demonstrations. The Constellation Room, located on the lobby level of the hotel, is an excellent location for that important board of directors meeting and can accommodate up to 12 attendees in stately leather chairs around a formidable wood table.</p>",
+                  "executive_summary": "<ul><li>Constellation Room seats 10-12 people</li><li>Constellation Room is 650 square feet</li><li>Complimentary Wi-Fi</li><li>Water provided</li><li>Room located on the lobby level</li><li>Super-low rates for same-week bookings</li></ul>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1468522843/property-logos/Argonaut.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2016-06-10 12:44:51",
+                  "updated_at": "2016-06-10 12:44:51",
+                  "moderated_at": "2016-06-10 12:44:51",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/7737"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "13"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "7740",
+          "attributes": {
+              "name": "Hotel Zetta",
+              "display_name": "Hotel Zetta",
+              "slug": "hotel-zetta",
+              "property_type_id": 1,
+              "display_address": "55 5th Street, SF",
+              "full_address": "55 5th St, San Francisco, CA 94103, United States",
+              "city": "San Francisco",
+              "state": "CA",
+              "country": "United States",
+              "time_zone": "America/Los_Angeles",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -122.407166,
+              "lat": 37.783405,
+              "status": 1,
+              "featured": 0,
+              "starting_at": 100,
+              "min_duration": 240,
+              "max_capacity": 18,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1466036283/thvj7up79uq8a8ucbtlc.jpg",
+              "details": {
+                  "id": 31,
+                  "property_id": 7740,
+                  "deckline": "<p>Edgy Luxury</p>",
+                  "description": "<p>Hotel Zetta has re-imagined the boring board/conference room as a space that’s fresh, vibrant and highly productive--the perfect setting for your next meeting. The Lumen room is a 448-square-foot space that’s perfect for conferences, board meetings, presentations and blue-sky discussions. Located on the second floor and overlooking the hotel lobby, this room seats 18 guests and offers state-of-the-art technologies and a unique space for the tech-savvy elite of San Francisco. The room’s 120-inch projection screen by Delta Displays and Mersive software allows for up to 20 devices to connect and interact wirelessly on the display system. The Lumen room is the ideal meeting hub.</p>",
+                  "executive_summary": "<ul><li>Lumen seats 18</li><li>448 square feet</li><li>120-inch projection screen complimentary</li><li>Up to 20 devices can connect to display</li><li>HDMI/VGA cables provided</li><li>Water pitchers provided</li><li>Complimentary Wi-Fi</li><li>Polycom, flipcharts, white board available - please add to special requests field</li><li>Lumen located on the second floor</li></ul>",
+                  "logo_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1468522844/property-logos/Hotel-Zetta.png",
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2016-06-15 19:54:15",
+                  "updated_at": "2016-06-15 19:54:15",
+                  "moderated_at": "2016-06-15 19:54:15",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/7740"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "13"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "property",
+          "id": "7745",
+          "attributes": {
+              "name": "Loews Regency New York",
+              "display_name": "Loews Regency NY",
+              "slug": "loews-regency-ny",
+              "property_type_id": 1,
+              "display_address": "540 Park Avenue, NYC",
+              "full_address": "540 Park Ave, New York, NY 10065, United States",
+              "city": "New York",
+              "state": "NY",
+              "country": "United States",
+              "time_zone": "America/New_York",
+              "contact_name": null,
+              "email": "support@bizly.com",
+              "phone": "Contact Bizly: 646.530.8630",
+              "lng": -73.969215,
+              "lat": 40.764549,
+              "status": 1,
+              "featured": 0,
+              "starting_at": 125,
+              "min_duration": 240,
+              "max_capacity": 16,
+              "image_url": "https://res.cloudinary.com/hdd626jg7/image/upload/v1468598154/psoohhup87noksoku4el.jpg",
+              "details": {
+                  "id": 34,
+                  "property_id": 7745,
+                  "deckline": "<p>Power Player</p>",
+                  "description": "<p>This Park Avenue institution is where the power breakfast was born, so it's a natural venue for your own power players to perform at their best. Meeting rooms offer natural light with Park Avenue views and state-of-the-art technology. A perfect room for intimate pop up meetings or interviews, the Conservatory features a round table and seating for up to 6 guests and a built-in flat-panel 55-inch HD TV for presentations. The Sheep Meadow is a sleek and functional meeting room with a boardroom table that seats 16, as well as a private foyer area, and a fixed flat-panel 60-inch HD display.  Both rooms include the LINC Line Phone for all special requests during your meeting.</p>",
+                  "executive_summary": "<ul><li>The Conservatory seats 6</li><li>The Conservatory is 200 sq ft</li><li>The Sheep Meadow seats 16</li><li>The Sheep Meadow is 500 sq ft</li><li>Wall-mounted HD display</li><li>VGA and HDMI cables provided</li><li>Complimentary Wi-Fi</li><li>Water pitchers provided</li><li>Rooms located on 2nd floor</li></ul>",
+                  "logo_url": null,
+                  "privacy_url": null,
+                  "terms_url": null,
+                  "status": 1,
+                  "created_at": "2016-07-12 13:36:12",
+                  "updated_at": "2016-07-12 13:36:12",
+                  "moderated_at": "2016-07-12 13:36:12",
+                  "moderated_by": 71,
+                  "deleted_at": null
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/properties/7745"
+                  }
+              ]
+          },
+          "relationships": {
+              "tags": {
+                  "data": [
+                      {
+                          "type": "tag",
+                          "id": "2"
+                      }
+                  ]
+              }
+          }
+      }
+  ],
+  "included": [
+      {
+          "type": "tag",
+          "id": "13",
+          "attributes": {
+              "name": "Hip",
+              "type": "price",
+              "created_at": {
+                  "date": "2015-02-25 19:24:03.000000",
+                  "timezone_type": 3,
+                  "timezone": "UTC"
+              },
+              "updated_at": {
+                  "date": "2015-02-25 19:24:03.000000",
+                  "timezone_type": 3,
+                  "timezone": "UTC"
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/tags/13"
+                  }
+              ],
+              "priority": 1
+          }
+      },
+      {
+          "type": "tag",
+          "id": "111",
+          "attributes": {
+              "name": "Glam",
+              "type": "price",
+              "created_at": {
+                  "date": "2015-10-13 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "UTC"
+              },
+              "updated_at": {
+                  "date": "2015-10-13 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "UTC"
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/tags/111"
+                  }
+              ],
+              "priority": 1
+          }
+      },
+      {
+          "type": "tag",
+          "id": "7",
+          "attributes": {
+              "name": "Modern",
+              "type": "price",
+              "created_at": {
+                  "date": "2015-02-25 19:24:03.000000",
+                  "timezone_type": 3,
+                  "timezone": "UTC"
+              },
+              "updated_at": {
+                  "date": "2015-02-25 19:24:03.000000",
+                  "timezone_type": 3,
+                  "timezone": "UTC"
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/tags/7"
+                  }
+              ],
+              "priority": 1
+          }
+      },
+      {
+          "type": "tag",
+          "id": "17",
+          "attributes": {
+              "name": "Charming",
+              "type": "price",
+              "created_at": {
+                  "date": "2015-02-25 19:24:03.000000",
+                  "timezone_type": 3,
+                  "timezone": "UTC"
+              },
+              "updated_at": {
+                  "date": "2015-02-25 19:24:03.000000",
+                  "timezone_type": 3,
+                  "timezone": "UTC"
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/tags/17"
+                  }
+              ],
+              "priority": 1
+          }
+      },
+      {
+          "type": "tag",
+          "id": "2",
+          "attributes": {
+              "name": "Upscale",
+              "type": "price",
+              "created_at": {
+                  "date": "2015-02-25 19:21:41.000000",
+                  "timezone_type": 3,
+                  "timezone": "UTC"
+              },
+              "updated_at": {
+                  "date": "2015-02-25 19:21:41.000000",
+                  "timezone_type": 3,
+                  "timezone": "UTC"
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/tags/2"
+                  }
+              ],
+              "priority": 1
+          }
+      },
+      {
+          "type": "tag",
+          "id": "15",
+          "attributes": {
+              "name": "Plush",
+              "type": "price",
+              "created_at": {
+                  "date": "2015-02-25 19:24:03.000000",
+                  "timezone_type": 3,
+                  "timezone": "UTC"
+              },
+              "updated_at": {
+                  "date": "2015-02-25 19:24:03.000000",
+                  "timezone_type": 3,
+                  "timezone": "UTC"
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/tags/15"
+                  }
+              ],
+              "priority": 1
+          }
+      },
+      {
+          "type": "tag",
+          "id": "6",
+          "attributes": {
+              "name": "Sleek",
+              "type": "price",
+              "created_at": {
+                  "date": "2015-02-25 19:24:03.000000",
+                  "timezone_type": 3,
+                  "timezone": "UTC"
+              },
+              "updated_at": {
+                  "date": "2015-02-25 19:24:03.000000",
+                  "timezone_type": 3,
+                  "timezone": "UTC"
+              },
+              "links": [
+                  {
+                      "rel": "self",
+                      "uri": "/api/v2/tags/6"
+                  }
+              ],
+              "priority": 1
+          }
+      }
+  ]
+}
