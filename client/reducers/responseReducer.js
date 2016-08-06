@@ -1,4 +1,4 @@
-import { AWAITING_RESPONSE, RESPONSE_RECEIVED } from '../actions/actionTypes';
+import { AWAITING_RESPONSE, RESPONSE_RECEIVED } from '../constants/actionTypes';
 
 export default function(state = true, action) {
 	switch(action.type){

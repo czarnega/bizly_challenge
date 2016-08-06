@@ -1,4 +1,4 @@
-import { ADD_PROPERTIES } from '../actions/actionTypes';
+import { ADD_PROPERTIES } from '../constants/actionTypes';
 
 export default function(state = [], action) {
 	switch(action.type){

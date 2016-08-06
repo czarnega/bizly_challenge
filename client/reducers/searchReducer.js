@@ -1,4 +1,4 @@
-import { SET_SEARCH, CLEAR_SEARCH } from '../actions/actionTypes';
+import { SET_SEARCH, CLEAR_SEARCH } from '../constants/actionTypes';
 
 export default function (state = '', action) {
 	switch (action.type) {

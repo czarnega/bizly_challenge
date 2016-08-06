@@ -9,5 +9,6 @@ export const CLEAR_SEARCH = 'CLEAR_SEARCH';
 // Action types for handling filtering
 export const GUESTS_FILTER = 'GUESTS_FILTER';
 export const TAGS_FILTER = 'TAGS_FILTER';
+export const SORT_FILTER = 'SORT_FILTER';
 export const CLEAR_FILTER = 'CLEAR_FILTER';
 

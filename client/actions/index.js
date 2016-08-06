@@ -1,9 +1,8 @@
-import * as TYPES from './actionTypes';
+import * as TYPES from '../constants/actionTypes';
 
 const API_URL = 'http://localhost:3090'
 
 export const getProperties = () => {
-	console.log('getProperties called')
 	return (dispatch) => (
 	 fetch(`${API_URL}/properties`)
 		.then(rawResponse => rawResponse.json())
@@ -16,10 +15,8 @@ export const getProperties = () => {
 				let propertyTags = property.relationships.tags.data.map(relationshipTag => {
 					return tags[relationshipTag.id]
 				})
-				// console.log('propertyTags:',propertyTags)
 				return {...property, tags: propertyTags}
 			})
-			console.log('response in getProperties:',response)
 			dispatch({ type: TYPES.ADD_PROPERTIES, payload: properties })
 			dispatch({ type: TYPES.RESPONSE_RECEIVED })
 		})
@@ -42,4 +39,13 @@ export const clearSearch = () => ({
 export const setGuestsFilter = (guestsNum) => ({
 	type: TYPES.GUESTS_FILTER,
 	payload: guestsNum
+})
+
+export const setSortFilter = (sort) => ({
+	type: TYPES.SORT_FILTER,
+	payload: sort
+})
+
+export const clearFilters = () => ({
+	type: TYPES.CLEAR_FILTER,
 })

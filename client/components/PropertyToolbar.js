@@ -1,30 +1,50 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../actions/index';
+import * as Sorts from '../constants/filterTypes';
 
 class PropertyToolbar extends Component {
 	constructor(props){
 		super(props);
 		this.state = {
-			options: []
+			guestOptions: [],
+			sortOptions: [],
 		}
-		this.handleChange = this.handleChange.bind(this);
-		this.handleSelect = this.handleSelect.bind(this);
+		this.handleSearchInput = this.handleSearchInput.bind(this);
+		this.handleGuestSelect = this.handleGuestSelect.bind(this);
+		this.handleSortSelect = this.handleSortSelect.bind(this);
+		this.handleClear = this.handleClear.bind(this);
 	}
 	componentWillMount(){
-		let options = [];
+		// Generate options for guest number and sort select fields
+		let guestOptions = [], sortOptions = [];
 		for(let i = 2; i < 31; i++){
-			options.push(<option key={i} value={i}>{i} guests</option>)
+			guestOptions.push(<option key={i} value={i}>{i} guests</option>)
+		}
+		for(let key in Sorts){
+			let text = Sorts[key].toLowerCase().split('_').join(' ');
+			sortOptions.push(<option key={key} value={Sorts[key]}>{text}</option>)
 		}
 		this.setState({
-			options
+			guestOptions,
+			sortOptions
 		})
 	}
-	handleChange(evt){
+	handleSearchInput(evt){
+		// Calls setSearch action creator with search term
 		this.props.setSearch(evt.target.value);
 	}
-	handleSelect(evt){
+	handleGuestSelect(evt){
+		// Calls setGuestsFilter action creator with guests-select option
 		this.props.setGuestsFilter(parseInt(evt.target.value))
+	}
+	handleSortSelect(evt){
+		// Calls setSortFilter action creator with sorts-select option
+		this.props.setSortFilter(evt.target.value)
+	}
+	handleClear(){
+		this.props.clearSearch();
+		this.props.clearFilters();
 	}
 	render(){
 		return (
@@ -34,17 +54,32 @@ class PropertyToolbar extends Component {
 					className='property-search-input'
 					type="text" 
 					value={this.props.search}
-					onChange={this.handleChange}
+					onChange={this.handleSearchInput}
 				/>
-				{this.props.search ? <div className='clear-search-button' onClick={this.props.clearSearch}>x</div> : '' }
 				<select 
 					className='guests-select'
 					name='guests'
 					value={this.props.filters.guests}
-					onChange={this.handleSelect}
+					onChange={this.handleGuestSelect}
 				>
-				 	{this.state.options}
+				 	{this.state.guestOptions}
 				</select>
+				<select 
+					className='sorts-select'
+					name='sorts'
+					value={this.props.filters.sort}
+					onChange={this.handleSortSelect}
+				>
+				 	{this.state.sortOptions}
+				</select>
+				{this.props.filters.touched || this.props.search ? (
+					<div
+						className='clear-search-button red-btn'
+						onClick={this.handleClear}
+					>
+					Reset Search
+					</div>
+					) : ''}
 			</div>
 		);
 	}
