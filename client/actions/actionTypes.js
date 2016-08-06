@@ -7,8 +7,7 @@ export const ADD_PROPERTIES = 'ADD_PROPERTIES';
 export const SET_SEARCH = 'SET_SEARCH';
 export const CLEAR_SEARCH = 'CLEAR_SEARCH';
 // Action types for handling filtering
-export const FILTER_ALL = 'FILTER_ALL';
-export const FILTER_HIP = 'FILTER_HIP';
-export const FILTER_GLAM = 'FILTER_GLAM';
-export const FILTER_MODERN = 'FILTER_MODERN';
-export const FILTER_CHARMING = 'FILTER_CHARMING';
+export const GUESTS_FILTER = 'GUESTS_FILTER';
+export const TAGS_FILTER = 'TAGS_FILTER';
+export const CLEAR_FILTER = 'CLEAR_FILTER';
+

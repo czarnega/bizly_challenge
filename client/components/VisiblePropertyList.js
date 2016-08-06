@@ -1,6 +1,16 @@
 import { connect } from 'react-redux';
 import PropertyList from './PropertyList';
 
+const generatePropertyList = (array, searchTerm, filters) => {
+	let unfilteredProperties = array;
+	if(searchTerm){
+		unfilteredProperties = filterProperties(array, searchTerm);
+	}
+	return unfilteredProperties.filter(property => {
+		return filters.guests <= property.attributes.max_capacity
+	})
+}
+
 const filterProperties = (array, searchTerm) => {
 	return array.filter((property,index) => {
 		let attributes = property.attributes;
@@ -27,7 +37,7 @@ const filterProperties = (array, searchTerm) => {
 }
 
 const mapStateToProps = state => ({
-	properties: filterProperties(state.properties, state.search),
+	properties: generatePropertyList(state.properties, state.search, state.filters),
 })
 
 export default connect(mapStateToProps,null)(PropertyList);

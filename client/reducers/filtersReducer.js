@@ -1,17 +1,24 @@
-import { FILTER_ALL, FILTER_HIP, FILTER_GLAM, FILTER_MODERN, FILTER_CHARMING } from '../actions/actionTypes';
+import { GUESTS_FILTER, TAGS_FILTER, CLEAR_FILTER } from '../actions/actionTypes';
 
-export default function (state = '', action) {
+const INITIAL_STATE = { 
+	guests: 2,
+	tags: {
+		hip: false,
+		glam: false,
+		modern: false,
+		charming: false,
+	}
+}
+
+export default function (state = INITIAL_STATE, action) {
 	switch (action.type) {
-	case FILTER_ALL:
-		return '';
-	case FILTER_HIP:
-		return action.filterBy;
-	case FILTER_GLAM:
-		return action.filterBy;
-	case FILTER_MODERN:
-		return action.filterBy;
-	case FILTER_CHARMING:
-		return action.filterBy;
+	case GUESTS_FILTER:
+		return {...state, guests: action.payload }
+	case TAGS_FILTER: 
+		let tagTarget = action.payload;
+		return {...state, tags: {...state.tags, tagTarget: !state.tags[tagTarget] }}
+	case CLEAR_FILTER:
+		return INITIAL_STATE;
 	default:
 		return state;
 	}
