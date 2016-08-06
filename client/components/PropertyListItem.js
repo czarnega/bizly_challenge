@@ -3,7 +3,7 @@ import PropertyTag from './PropertyTag';
 
 const PropertyListItem = ({ id, attributes, tags }) => {
 	return (
-		<div className='property-list-item card'>
+		<div className='property-list-item card' id={`card-${id}`}>
 			<img className='card-img' src={attributes.image_url} />
 			<div className='card-content'>
 				<div className='card-header'>

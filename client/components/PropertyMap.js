@@ -14,6 +14,18 @@ class PropertyMap extends Component {
 	constructor(props){
 		super(props);
 	}
+	handleMarkerClick(property){
+		function findPos(obj) {
+	    var curtop = 0;
+	    if (obj.offsetParent) {
+        do {
+          curtop += obj.offsetTop;
+        } while (obj = obj.offsetParent);
+	    	return [curtop] - 62;
+	    }
+		}
+		window.scroll(0,findPos(document.getElementById(`card-${property.id}`)));
+	}
 	render() {
 		return (
 			<div className='property-map-container' >			
@@ -28,6 +40,7 @@ class PropertyMap extends Component {
 							position={[property.attributes.lat, property.attributes.lng]}
 							title={property.attributes.name}
 							riseOnHover={true}
+							onClick={this.handleMarkerClick.bind(this,property)}
 						/>
 					))}
 				</Map>
