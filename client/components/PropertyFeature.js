@@ -1,5 +1,6 @@
 import React from 'react';
 import PropertyToolbar from './PropertyToolbar';
+import PropertyMap from './PropertyMap';
 import VisiblePropertyList from './VisiblePropertyList';
 
 const PropertyFeature = () => {
@@ -9,6 +10,7 @@ const PropertyFeature = () => {
 				<div className='column-placeholder' />
 				<div className='property-list'>
 					<PropertyToolbar />
+					<PropertyMap />
 					<VisiblePropertyList />
 				</div>
 				<div className='column-placeholder' />

@@ -63,7 +63,7 @@ body {
 .property-list {
 	flex: 8;
 	display: flex;
-	flex-flow: column wrap;
+	flex-flow: column nowrap;
 	align-items: stretch;
 }
 
@@ -117,6 +117,18 @@ select {
 .locations-select, .guests-select, .sorts-select {
 	height: 36px;
 	padding: 0 8px;
+}
+
+.property-map-container {
+	height: 400px;
+}
+
+.property-map {
+/*	height: 400px;
+	width: 80%;
+	margin: 0 auto;*/
+	height: 100%;
+	width: 100%;
 }
 
 .card {
