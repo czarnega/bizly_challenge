@@ -10,7 +10,7 @@ const INITIAL_STATE = {
 		charming: false,
 	},
 	sort: SORTS.PRICE_ASCENDING,
-	location: 'NY',
+	location: 'New York',
 	touched: false,
 }
 

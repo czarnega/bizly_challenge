@@ -8,7 +8,7 @@ const generatePropertyList = (array, searchTerm, filters) => {
 		properties = filterProperties(array, searchTerm);
 	}
 	if(filters.touched){
-		properties = properties.filter(property => filters.guests <= property.attributes.max_capacity)
+		properties = properties.filter(property => (property.attributes.city === filters.location && filters.guests <= property.attributes.max_capacity))
 	}
 	return filters.touched ? sortProperties(properties,filters.sort) : properties;
 }

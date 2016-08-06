@@ -114,7 +114,7 @@ select {
 	color: #1c1c1c;
 	border-color: #ddd;
 }
-.guests-select, .sorts-select {
+.locations-select, .guests-select, .sorts-select {
 	height: 36px;
 	padding: 0 8px;
 }

@@ -10,6 +10,7 @@ class PropertyToolbar extends Component {
 			guestOptions: [],
 			sortOptions: [],
 		}
+		this.handleLocationSelect = this.handleLocationSelect.bind(this);
 		this.handleSearchInput = this.handleSearchInput.bind(this);
 		this.handleGuestSelect = this.handleGuestSelect.bind(this);
 		this.handleSortSelect = this.handleSortSelect.bind(this);
@@ -30,6 +31,10 @@ class PropertyToolbar extends Component {
 			sortOptions
 		})
 	}
+	handleLocationSelect(evt){
+		// Calls setLocationFilter action creator with locations-select option
+		this.props.setLocationFilter(evt.target.value)
+	}
 	handleSearchInput(evt){
 		// Calls setSearch action creator with search term
 		this.props.setSearch(evt.target.value);
@@ -49,6 +54,15 @@ class PropertyToolbar extends Component {
 	render(){
 		return (
 			<div className='property-toolbar'>
+				<select 
+					className='locations-select'
+					name='locations'
+					value={this.props.filters.location}
+					onChange={this.handleLocationSelect}
+				>
+				 	<option key={'NYC'} value={'New York'}>New York</option>
+				 	<option key={'SF'} value={'San Francisco'}>San Francisco</option>
+				</select>
 				<input
 					placeholder='Enter a keyword to search for...'
 					className='property-search-input'

@@ -36,6 +36,11 @@ export const clearSearch = () => ({
 	type: TYPES.CLEAR_SEARCH,
 });
 
+export const setLocationFilter = (location) => ({
+	type: TYPES.LOCATION_FILTER,
+	payload: location
+})
+
 export const setGuestsFilter = (guestsNum) => ({
 	type: TYPES.GUESTS_FILTER,
 	payload: guestsNum
