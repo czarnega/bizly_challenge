@@ -4,9 +4,12 @@ import PropertyListItem from './PropertyListItem';
 const PropertyList = ({ properties }) => {
 	return (
 		<div>
-			<div>Property List</div>
-			<div className='property-list'>
-				{properties ? properties.map((property,i) => (<PropertyListItem key={i} {...property} />)) : ''}
+			<div className='list-container'>
+				<div className='column-placeholder' />
+				<div className='property-list'>
+					{properties ? properties.map((property,i) => (<PropertyListItem key={i} {...property} />)) : ''}
+				</div>
+				<div className='column-placeholder' />
 			</div>
 		</div>
 	);

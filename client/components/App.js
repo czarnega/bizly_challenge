@@ -11,8 +11,10 @@ class App extends Component{
 	render(){
 		console.log('this.props in App:',this.props)
 		return(
-			<div>
-				<div>Bizly Challenge</div>
+			<div className='app-container'>
+				<div className='header'>
+					<span className='header-title'>Bizly Challenge</span>
+				</div>
 				<PropertyList properties={this.props.properties} />
 			</div>
 		);

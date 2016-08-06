@@ -6,15 +6,26 @@ const PropertyListItem = ({ attributes }) => {
 			<img className='card-img' src={attributes.image_url} />
 			<div className='card-content'>
 				<div className='card-header'>
-					<div><h3>{attributes.name}</h3></div>
-					<div>{attributes.starting_at}</div>
+					<div>
+						<h3 className='property-name'>{attributes.name}</h3>
+						<div className='card-address'>{attributes.display_address}</div>
+					</div>
+					<div>
+						<span className='starting-at'>Starting At</span>
+						<h3 className='price'>${attributes.starting_at}</h3>
+					</div>
 				</div>
-				<div className='card-address'>
-					<div>{attributes.full_address}</div>
+				<div className='card-tags'>
+					
 				</div>
-				<div className='card-body'>
-					<div dangerouslySetInnerHTML={{__html: attributes.details.deckline}} />
-					<div dangerouslySetInnerHTML={{__html: attributes.details.description}} />
+				<div className='card-footer'>
+					<div className='capacity'>
+						<span>Up to {attributes.max_capacity} guests</span>
+					</div>
+					<div className='divider' />
+					<div className='duration'>
+						<span>{ attributes.min_duration / 60} hours minimum</span>
+					</div>
 				</div>
 			</div>
 		</div>
