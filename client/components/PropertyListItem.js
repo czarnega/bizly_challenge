@@ -1,6 +1,7 @@
 import React from 'react';
+import PropertyTag from './PropertyTag';
 
-const PropertyListItem = ({ attributes }) => {
+const PropertyListItem = ({ id, attributes, tags }) => {
 	return (
 		<div className='property-list-item card'>
 			<img className='card-img' src={attributes.image_url} />
@@ -16,7 +17,7 @@ const PropertyListItem = ({ attributes }) => {
 					</div>
 				</div>
 				<div className='card-tags'>
-					
+					{tags.map((tag,i) => <PropertyTag key={id+i} {...tag} />)}
 				</div>
 				<div className='card-footer'>
 					<div className='capacity'>
