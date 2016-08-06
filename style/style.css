@@ -16,6 +16,17 @@ body {
 	margin-top: 65px;
 }
 
+.loading-message {
+	height: 100%;
+	width: 100%;
+	padding-top: 300px;
+	text-align: center;
+}
+
+.loading-message > h1 {
+	font-size: 64px;
+}
+
 .header {
 	position: fixed;
 	top: 0;

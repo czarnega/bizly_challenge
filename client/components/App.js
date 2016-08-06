@@ -15,14 +15,15 @@ class App extends Component{
 				<div className='header'>
 					<span className='header-title'>Bizly Challenge</span>
 				</div>
-				<PropertyList properties={this.props.properties} />
+				{this.props.isLoading ? <div className='loading-message'><h1>Loading properties!</h1></div> : <PropertyList properties={this.props.properties} />}
 			</div>
 		);
 	}
 }
 
 const mapStateToProps = (state) => ({
-	properties: state.properties
+	properties: state.properties,
+	isLoading: state.response,
 })
 
 export default connect(mapStateToProps, actions)(App);

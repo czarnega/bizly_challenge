@@ -1,6 +1,6 @@
 import { AWAITING_RESPONSE, RESPONSE_RECEIVED } from '../actions/actionTypes';
 
-export default function(state = false, action) {
+export default function(state = true, action) {
 	switch(action.type){
 		case AWAITING_RESPONSE:
 			return true;

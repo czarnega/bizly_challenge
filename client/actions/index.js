@@ -21,7 +21,11 @@ export const getProperties = () => {
 			})
 			console.log('response in getProperties:',response)
 			dispatch({ type: TYPES.ADD_PROPERTIES, payload: properties })
+			dispatch({ type: TYPES.RESPONSE_RECEIVED })
 		})
-		.catch(error => { console.log('Error in getProperties of ',error) })
+		.catch(error => { 
+			dispatch({ type: TYPES.RESPONSE_RECEIVED })
+			console.log('Error in getProperties of ',error) 
+		})
 	)
 }
