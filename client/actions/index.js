@@ -29,3 +29,20 @@ export const getProperties = () => {
 		})
 	)
 }
+
+// export const setSearch = (searchTerm) => {
+// 	console.log(`setSearch action creator called with searchTerm of ${searchTerm}`)
+// 	return {
+// 		type: TYPES.SET_SEARCH,
+// 		searchTerm,
+// 	}
+// } 
+
+export const setSearch = (searchTerm) => ({
+	type: TYPES.SET_SEARCH,
+	searchTerm,
+});
+
+export const clearSearch = () => ({
+	type: TYPES.CLEAR_SEARCH,
+});

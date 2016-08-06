@@ -58,6 +58,30 @@ body {
 	flex: 8;
 	display: flex;
 	flex-flow: column wrap;
+	align-items: stretch;
+}
+
+.property-toolbar {
+	margin: 20px 10px;
+	padding: 0;
+	/*width: 100%;*/
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+
+.property-search-input {
+	flex: 1;
+	height: 36px;
+}
+
+.clear-search-button {
+	cursor: pointer;
+	padding: 8px 12px;
+	text-align: center;
+	color: red;
+	font-weight: bold;
 }
 
 .card {

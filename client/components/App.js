@@ -9,7 +9,6 @@ class App extends Component{
 	}
 
 	render(){
-		console.log('this.props in App:',this.props)
 		return(
 			<div className='app-container'>
 				<div className='header'>
