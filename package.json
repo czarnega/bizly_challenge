@@ -4,6 +4,9 @@
   "description": "Coding challenge for Bizly",
   "main": "index.js",
   "scripts": {
+    "build-prod": "NODE_ENV=production webpack --config ./webpack.config.prod.js",
+    "start": "node server/server.js",
+    "start-dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
