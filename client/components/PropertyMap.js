@@ -11,6 +11,9 @@ const position = {
 };
 
 class PropertyMap extends Component {
+	constructor(props){
+		super(props);
+	}
 	render() {
 		return (
 			<div className='property-map-container' >			
@@ -34,7 +37,6 @@ class PropertyMap extends Component {
 }
 
 const mapStateToProps = (state) => ({
-	properties: state.properties,
 	defaultLocation: state.filters.location
 })
 

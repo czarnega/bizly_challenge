@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import PropertyList from './PropertyList';
+import PropertyFeature from './PropertyFeature';
 import * as SORTS from '../constants/filterTypes';
 
 const generatePropertyList = (array, searchTerm, filters) => {
@@ -59,4 +59,4 @@ const mapStateToProps = state => ({
 	properties: generatePropertyList(state.properties, state.search, state.filters),
 })
 
-export default connect(mapStateToProps,null)(PropertyList);
+export default connect(mapStateToProps,null)(PropertyFeature);

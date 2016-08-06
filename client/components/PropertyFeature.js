@@ -1,17 +1,17 @@
 import React from 'react';
 import PropertyToolbar from './PropertyToolbar';
 import PropertyMap from './PropertyMap';
-import VisiblePropertyList from './VisiblePropertyList';
+import PropertyList from './PropertyList';
 
-const PropertyFeature = () => {
+const PropertyFeature = ({ properties }) => {
 	return (
 		<div>
 			<div className='list-container'>
 				<div className='column-placeholder' />
 				<div className='property-list'>
 					<PropertyToolbar />
-					<PropertyMap />
-					<VisiblePropertyList />
+					<PropertyMap properties={properties} />
+					<PropertyList properties={properties} />
 				</div>
 				<div className='column-placeholder' />
 			</div>
