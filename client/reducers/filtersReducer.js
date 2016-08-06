@@ -1,4 +1,4 @@
-import { GUESTS_FILTER, TAGS_FILTER, SORT_FILTER, CLEAR_FILTER } from '../constants/actionTypes';
+import { GUESTS_FILTER, TAGS_FILTER, SORT_FILTER, LOCATION_FILTER, CLEAR_FILTER } from '../constants/actionTypes';
 import * as SORTS from '../constants/filterTypes';
 
 const INITIAL_STATE = { 
@@ -10,6 +10,7 @@ const INITIAL_STATE = {
 		charming: false,
 	},
 	sort: SORTS.PRICE_ASCENDING,
+	location: 'NY',
 	touched: false,
 }
 
@@ -22,6 +23,8 @@ export default function (state = INITIAL_STATE, action) {
 		return {...state, tags: {...state.tags, tagTarget: !state.tags[tagTarget] }, touched: true }
 	case SORT_FILTER:
 		return {...state, sort: action.payload, touched: true }
+	case LOCATION_FILTER:
+		return {...state, location: action.payload, touched: true }
 	case CLEAR_FILTER:
 		return INITIAL_STATE;
 	default:

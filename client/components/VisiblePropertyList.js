@@ -3,22 +3,26 @@ import PropertyList from './PropertyList';
 import * as SORTS from '../constants/filterTypes';
 
 const generatePropertyList = (array, searchTerm, filters) => {
-	let unfilteredProperties = array;
+	let properties = array;
 	if(searchTerm){
-		unfilteredProperties = filterProperties(array, searchTerm);
+		properties = filterProperties(array, searchTerm);
 	}
-	unfilteredProperties = unfilteredProperties.filter(property => {
-		return filters.guests <= property.attributes.max_capacity
-	})
-	return filters.touched ? sortProperties(unfilteredProperties,filters.sort) : unfilteredProperties;
+	if(filters.touched){
+		properties = properties.filter(property => filters.guests <= property.attributes.max_capacity)
+	}
+	return filters.touched ? sortProperties(properties,filters.sort) : properties;
 }
 
-const filterProperties = (array, searchTerm) => {
-	return array.filter((property,index) => {
+const filterProperties = (array, searchTerm) => (
+	array.filter((property,index) => {
 		let attributes = property.attributes;
 		let tags = property.tags;
 		let term = searchTerm.toLowerCase();
 		if(attributes.name.toLowerCase().includes(term)){
+			return true;
+		} else if(attributes.city.toLowerCase().includes(term)){
+			return true;
+		} else if(attributes.display_address.toLowerCase().includes(term)){
 			return true;
 		} else if(attributes.full_address.toLowerCase().includes(term)){
 			return true;
@@ -27,16 +31,10 @@ const filterProperties = (array, searchTerm) => {
 		} else if(attributes.details.executive_summary.toLowerCase().includes(term)){
 			return true;
 		} else {
-			let flag = false;
-			tags.forEach(tag => {
-				if(tag.name.toLowerCase().includes(term)){
-					flag = true
-				}
-			})
-			return flag;
+			return tags.filter(tag => tag.name.toLowerCase().includes(term)).length > 0;
 		}
 	})
-}
+)
 
 const sortProperties = (array, sortMethod) => {
 	switch(sortMethod){
