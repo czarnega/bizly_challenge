@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../actions/index';
-import PropertyList from './PropertyList';
+import PropertyFeature from './PropertyFeature';
 
 class App extends Component{
 	componentDidMount(){
@@ -14,7 +14,7 @@ class App extends Component{
 				<div className='header'>
 					<span className='header-title'>Bizly Challenge</span>
 				</div>
-				{this.props.isLoading ? <div className='loading-message'><h1>Loading properties!</h1></div> : <PropertyList properties={this.props.properties} />}
+				{this.props.isLoading ? <div className='loading-message'><h1>Loading properties!</h1></div> : <PropertyFeature />}
 			</div>
 		);
 	}
